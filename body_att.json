@@ -1,0 +1,208 @@
+{
+    "results": [
+        {
+            "code": 0,
+            "error": "",
+            "status": "OK"
+        }
+    ],
+    "responses": [
+        {
+            "objects": [
+                {
+                    "object_info": {
+                        "type": "OBJECT_PEDESTRIAN",
+                        "face": null,
+                        "pedestrian": {
+                            "quality": 0,
+                            "rectangle": {
+                                "vertices": [
+                                    {
+                                        "x": 0,
+                                        "y": 4
+                                    },
+                                    {
+                                        "x": 388,
+                                        "y": 776
+                                    }
+                                ]
+                            },
+                            "track_id": "0",
+                            "attributes_with_score": {
+                                "age_lower_limit": {
+                                    "type": "CLASSIFICATION",
+                                    "category": "AGE_LOWER_LIMIT",
+                                    "value": 18,
+                                    "roi": null
+                                },
+                                "age_up_limit": {
+                                    "type": "CLASSIFICATION",
+                                    "category": "AGE_UP_LIMIT",
+                                    "value": 59,
+                                    "roi": null
+                                },
+                                "cap_style": {
+                                    "type": "CLASSIFICATION",
+                                    "category": "ST_CRASH_HELMET",
+                                    "value": 0.9875618,
+                                    "roi": null
+                                },
+                                "coat_color": {
+                                    "type": "CLASSIFICATION",
+                                    "category": "BLACK",
+                                    "value": 0.9922662,
+                                    "roi": null
+                                },
+                                "coat_length": {
+                                    "type": "CLASSIFICATION",
+                                    "category": "SHORT_SLEEVE",
+                                    "value": 0.9999188,
+                                    "roi": null
+                                },
+                                "gender_code": {
+                                    "type": "CLASSIFICATION",
+                                    "category": "MALE",
+                                    "value": 0.8538243,
+                                    "roi": null
+                                },
+                                "glass_style": {
+                                    "type": "CLASSIFICATION",
+                                    "category": "GLASSES_STYLE_TYPE_WITHOUT",
+                                    "value": 0.94858325,
+                                    "roi": null
+                                },
+                                "hair_style": {
+                                    "type": "CLASSIFICATION",
+                                    "category": "ST_SHORT",
+                                    "value": 0.93048984,
+                                    "roi": null
+                                },
+                                "st_age": {
+                                    "type": "CLASSIFICATION",
+                                    "category": "ST_ADULT",
+                                    "value": 0.90788525,
+                                    "roi": null
+                                },
+                                "st_coat_pattern": {
+                                    "type": "CLASSIFICATION",
+                                    "category": "ST_PURE",
+                                    "value": 0.9620502,
+                                    "roi": null
+                                },
+                                "st_fishing": {
+                                    "type": "CLASSIFICATION",
+                                    "category": "ST_FISHING",
+                                    "value": 0.99999976,
+                                    "roi": null
+                                },
+                                "st_glove": {
+                                    "type": "CLASSIFICATION",
+                                    "category": "ST_GLOVE_WITHOUT",
+                                    "value": 0.99916893,
+                                    "roi": null
+                                },
+                                "st_glove_v2": {
+                                    "type": "CLASSIFICATION",
+                                    "category": "ST_GLOVE_WITHOUT",
+                                    "value": 0.99916893,
+                                    "roi": null
+                                },
+                                "st_hold_object_in_front": {
+                                    "type": "CLASSIFICATION",
+                                    "category": "ST_HOLD_OBJECT_IN_FRONT_WITHOUT",
+                                    "value": 0.9892161,
+                                    "roi": null
+                                },
+                                "st_hold_object_in_front_v2": {
+                                    "type": "CLASSIFICATION",
+                                    "category": "ST_HOLD_OBJECT_IN_FRONT_WITHOUT",
+                                    "value": 0.9892161,
+                                    "roi": null
+                                },
+                                "st_oxygen_bottle": {
+                                    "type": "CLASSIFICATION",
+                                    "category": "ST_OXYGEN_BOTTLE_AGNOSTIC",
+                                    "value": 0.9305176,
+                                    "roi": null
+                                },
+                                "st_pedestrian_angle": {
+                                    "type": "CLASSIFICATION",
+                                    "category": "ST_FRONT",
+                                    "value": 0.98465145,
+                                    "roi": null
+                                },
+                                "st_phone_status": {
+                                    "type": "CLASSIFICATION",
+                                    "category": "ST_NORMAL",
+                                    "value": 0.9756639,
+                                    "roi": null
+                                },
+                                "st_pose": {
+                                    "type": "CLASSIFICATION",
+                                    "category": "ST_SIT_ON_THE_VEHICLE",
+                                    "value": 0.98935705,
+                                    "roi": null
+                                },
+                                "st_process_internal_detect_confidence": {
+                                    "type": "CLASSIFICATION",
+                                    "category": "INTERNAL_DETECT_CONFIDENCE",
+                                    "value": 0.61850697,
+                                    "roi": null
+                                },
+                                "st_process_internal_ped_quality": {
+                                    "type": "CLASSIFICATION",
+                                    "category": "BLUR",
+                                    "value": 0.9999941,
+                                    "roi": null
+                                },
+                                "st_reflective_clothes": {
+                                    "type": "CLASSIFICATION",
+                                    "category": "ST_REFLECTIVE_CLOTHES_WITHOUT",
+                                    "value": 0.99968904,
+                                    "roi": null
+                                },
+                                "st_smoking": {
+                                    "type": "CLASSIFICATION",
+                                    "category": "ST_SMOKING_WITHOUT",
+                                    "value": 0.93009865,
+                                    "roi": null
+                                },
+                                "st_trousers_pattern": {
+                                    "type": "CLASSIFICATION",
+                                    "category": "ST_PURE",
+                                    "value": 0.9805157,
+                                    "roi": null
+                                },
+                                "st_umbrella": {
+                                    "type": "CLASSIFICATION",
+                                    "category": "ST_UMBRELLA_WITHOUT",
+                                    "value": 0.9999932,
+                                    "roi": null
+                                }
+                            },
+                            "pedestrian_score": 0.9694756
+                        },
+                        "automobile": null,
+                        "human_powered_vehicle": null,
+                        "cyclist": null,
+                        "crowd": null,
+                        "event": null,
+                        "portrait_image_location": null,
+                        "object_id": "0",
+                        "associations": [],
+                        "algo": null,
+                        "diagnosis": null,
+                        "carplate": null,
+                        "watercraft": null,
+                        "trajectory": null
+                    },
+                    "feature": {
+                        "type": "pedestrian",
+                        "version": 10500,
+                        "blob": "U09GMQQpAAAQAgAAAAEAAAAAAAAFAAAAAAAAAAAAAAAx1MP30QvvUHG6KPAmRDfI8IWk7a+viXkgtiqAEVEDw6QUTKbDihrlxVL3oJoEMwQWVFUKSbj+krcKZN/wvVD0mqqyCeeu2cxM43piO2mN1piaMsmROIEdLFVjk2qptK58kdQ+ZzwBYBweye4irGxYcuaCPx4yoYJIVHDSqcuAID2hgHzJF5moDEH+8/G7f+IV3/BVQ9NJ/uk/UyJtX+9Bydld4x4HEaMrC2qM+gyh8EcWV+0WtvsYOMT0FFadVcKaEjdTwGGmyRr5nqGWcpRpjReyt2U1mMGssw6FuA7RmnUZjje6KU5OdeZ/mIyCsICjoASH1t2dDSEj0NaUv3CLAJQ002mmJLgu+AGbwgx1CpS0ok3vwDa9EzGRCbgqeZ33Oh2eKKsS3CdNFhiwEyuBvbeePCV92B0InsOZrVsIbDifwYXXLsUDC0rcAHnZyk90JXA57JWkG1QoVdRoXv/pnNJslrOr2Nu+KI5lMlm4HrNiJhM5D0nu8Yju6xBZovfFdfaosvPQHhrHrMZzDcRGq1v6Kfk5T7B8u0SQDu7etmDBewaeq+Q06IzOTUeHVmb4o4Ti7zgB6owNSEsLYahHlakVVa9hz/5f47lHNQ1F5F9LAHxZ5VLJHc4duHI2bPQyZjwRnXHaVViGFqzB5IbFrDbIWpzyOuBlr9yw83NviXcGUTjPefkZ9leL/9PLoLk="
+                    }
+                }
+            ]
+        }
+    ]
+}

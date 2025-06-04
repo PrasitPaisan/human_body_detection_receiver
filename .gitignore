@@ -1,0 +1,43 @@
+# Environment variables
+.env
+
+# Virtual Environment
+env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# GCP credentials
+socopen-platform-production-e873f035eae8.json
+
+# Downloaded images and temp files
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.mp4
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Local database files
+*.db
+*.sqlite3
+
+# JSON files (except schema files)
+*.json
+!body_att.json
